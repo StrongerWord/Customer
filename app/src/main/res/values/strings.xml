@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">地铁消费系统</string>
+    <string name="yuan">元</string>
+    <string name="total">总计：</string>
+</resources>
