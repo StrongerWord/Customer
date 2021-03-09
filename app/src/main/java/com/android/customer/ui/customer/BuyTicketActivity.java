@@ -133,7 +133,7 @@ public class BuyTicketActivity extends BaseActivity<ActivityBuyTicketBinding, Ma
                             if (user != null && !hasBuy) {
                                 double balance = user.balance;
 //                                double price = BigDecimalUtils.randomPrice();//随机票价
-                                double price = BigDecimalUtils.randomPrice();
+                                double price = 2;
                                 if(user.balance < price) {
                                     ToastUtils.show("余额不足");
                                     return;
